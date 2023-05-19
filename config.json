@@ -1,0 +1,20 @@
+{
+    "reversed": {
+      "adress": "1.1.1.1",
+      "port": 80,
+      "update": 1000,
+      "changeOrigin": true
+    },
+
+    "firewall": {
+      "userAgent": {
+        "maxPerIP": 3,
+        "timeWindowMinutes": 120
+      },
+      "rateLimit": {
+        "enabled": false,
+        "requestpersecond": 150,
+        "trigger": 30
+      }
+    }
+}
